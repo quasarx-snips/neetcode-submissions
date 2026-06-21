@@ -1,0 +1,12 @@
+class Solution:
+    def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+        inv = {}
+        for i in magazine:
+            inv[i]=inv.get(i,0)+1
+        for i in ransomNote:
+            if inv.get(i, 0)>0:
+                inv[i]-=1
+            else:
+                return False    
+        return True
+        
