@@ -1,7 +1,7 @@
 # 🚀 Operation Headstart: 5-Day Syllabus Blitz (PCM Only)
 
 **Primary Resources:**
-- **Math (CLP-3):** [UBC Multivariable Calculus PDF](https://www.math.ubc.ca/~CLP/CLP3/combined_clp_3.pdf)
+- **Math (MIT OCW):** [Calculus by Jerison et al. (MIT OCW)](https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/mitres_18_001_f17_full_book.pdf)
 - **Physics:** [BMSCE Applied Physics Notes PDF](https://bmsce.ac.in/Content/PHY/Applied_physics_consolidated_notes.pdf)
 
 **Daily Schedule:**
@@ -14,9 +14,9 @@
 ## 📅 DAY 1: Foundations (Limits & Quantum Origins)
 ### 📐 Math (3 Hours)
 - [ ] **Topic:** Limits in 2D/3D
-- [ ] **Read:** CLP-3 PDF, **Pages 93-102** (Section 2.1)
-- [ ] **Focus:** Examples 2.1.4, 2.1.7, 2.1.8, 2.1.9
-- [ ] **Action:** Try 3 problems from Stage 1 exercises. Don't stress if you get stuck — just expose your brain to the *shape* of 2D limits.
+- [ ] **Read:** MIT OCW PDF, **Chapter 14.1** (Functions of 2 Variables) & **Chapter 14.2** (Limits and Continuity)
+- [ ] **Focus:** How approaching a point from different paths (x-axis vs y-axis) can make a limit fail to exist.
+- [ ] **Action:** Read the examples in 14.2. Try to solve the first 2 exercises at the end of 14.2.
 
 ### ⚛️ Physics (2 Hours)
 - [ ] **Topic:** Blackbody Radiation, Photoelectric Effect, Compton Effect, de Broglie
@@ -27,26 +27,26 @@
 ---
 
 ## 📅 DAY 2: The Shift (Partial Derivatives & Wave Function)
-### 📐 Math (3 Hours)
+###  Math (3 Hours)
 - [ ] **Topic:** Partial Derivatives Intro
-- [ ] **Read:** CLP-3 PDF, **Pages 103-115** (Section 2.2)
-- [ ] **Focus:** Treating 'y' as a constant while differentiating 'x'.
-- [ ] **Action:** Compute ∂f/∂x and ∂f/∂y for f(x,y) = x²y + sin(xy). Do 5 exercises from Stage 1.
+- [ ] **Read:** MIT OCW PDF, **Chapter 14.3** (Partial Derivatives) & **Chapter 14.4** (Differentials)
+- [ ] **Focus:** Treating 'y' as a constant while differentiating 'x'. Geometric meaning of partial derivatives.
+- [ ] **Action:** Compute ∂f/∂x and ∂f/∂y for f(x,y) = x²y + sin(xy). Do 3 exercises from the end of 14.3.
 
 ### ⚛️ Physics (2 Hours)
 - [ ] **Topic:** Wave Function & Heisenberg Uncertainty Principle
 - [ ] **Read:** BMSCE PDF, **Pages 8-16**
-- [ ] **Focus:** Physical significance of Ψ vs |Ψ|² + ΔxΔp ≥ ℏ/2 numericals.
+- [ ] **Focus:** Physical significance of Ψ vs |Ψ|² + ΔxΔp ≥ /2 numericals.
 - [ ] **Action:** Solve 2 basic Heisenberg numericals (e.g., "If Δx = 10⁻¹⁰ m, find minimum Δp").
 
 ---
 
 ## 📅 DAY 3: Building Rules (Chain Rule & Schrödinger)
-### 📐 Math (3 Hours)
-- [ ] **Topic:** Higher Order Derivatives & Chain Rule
-- [ ] **Read:** CLP-3 PDF, **Pages 116-135** (Sections 2.3 & 2.4)
-- [ ] **Focus:** The multivariable chain rule tree diagram.
-- [ ] **Action:** Find dz/dt if z = x²y, x = t², y = t³. Do 3 exercises from Stage 1.
+###  Math (3 Hours)
+- [ ] **Topic:** The Chain Rule
+- [ ] **Read:** MIT OCW PDF, **Chapter 14.5** (The Chain Rule)
+- [ ] **Focus:** The multivariable chain rule tree diagram. How to track dependencies.
+- [ ] **Action:** Find dz/dt if z = x²y, x = t², y = t³. Do 3 exercises from the end of 14.5.
 
 ### ⚛️ Physics (2 Hours)
 - [ ] **Topic:** Schrödinger Equation (Time-Independent)
@@ -56,12 +56,12 @@
 
 ---
 
-## 📅 DAY 4: Geometry (Tangent Planes, Jacobian & Particle Box)
+## 📅 DAY 4: Geometry (Tangent Planes, Gradients & Particle Box)
 ### 📐 Math (3 Hours)
-- [ ] **Topic:** Tangent Planes, Linear Approximations & Jacobian Intro
-- [ ] **Read:** CLP-3 PDF, **Pages 136-170** (Sections 2.5 & 2.6)
-- [ ] **Focus:** How a 2D tangent line becomes a 3D tangent plane + Jacobian as a "stretch factor".
-- [ ] **Action:** Find the tangent plane to z = x² + y² at (1, 1, 2). Compute Jacobian of (u,v) = (x²-y², 2xy).
+- [ ] **Topic:** Tangent Planes & Gradients
+- [ ] **Read:** MIT OCW PDF, **Chapter 14.6** (Tangent Plane and Normal Vector) & **Chapter 14.7** (Directional Derivatives and the Gradient)
+- [ ] **Focus:** How a 2D tangent line becomes a 3D tangent plane. Why the gradient vector points in the direction of steepest ascent.
+- [ ] **Action:** Find the equation of the tangent plane to z = x² + y² at (1, 1, 2). 
 
 ### ⚛️ Physics (2 Hours)
 - [ ] **Topic:** Particle in 1D Box (Derivation + Numericals)
@@ -71,11 +71,11 @@
 
 ---
 
-## 📅 DAY 5: Direction & Constraints (Gradient, Max/Min, Lagrange & Wrap)
-### 📐 Math (3 Hours)
-- [ ] **Topic:** Directional Derivatives, Gradient, Max/Min, Lagrange Multipliers
-- [ ] **Read:** CLP-3 PDF, **Pages 171-246** (Sections 2.7, 2.8, 2.9)
-- [ ] **Focus:** Gradient points uphill + Second Derivative Test (D = fxx*fyy - (fxy)²) + Lagrange setup.
+##  DAY 5: Constraints (Max/Min, Lagrange & Wrap)
+###  Math (3 Hours)
+- [ ] **Topic:** Max/Min & Lagrange Multipliers
+- [ ] **Read:** MIT OCW PDF, **Chapter 14.8** (Max-Min Problems) & **Chapter 14.9** (Lagrange Multipliers)
+- [ ] **Focus:** The Second Derivative Test (D = fxx*fyy - (fxy)²) + How to set up Lagrange multipliers for constrained optimization.
 - [ ] **Action:** Find critical points of f(x,y) = x³ + y³ - 3xy. Maximize f(x,y) = xy subject to x² + y² = 1 using Lagrange.
 
 ### ⚛️ Physics (2 Hours)
@@ -87,6 +87,6 @@
 ---
 
 ## ✅ **End-of-Day Check-In (Every Night):**
-- [ ] Did I finish the assigned pages?
+- [ ] Did I finish the assigned chapters/pages?
 - [ ] Could I explain the main concept in 1 sentence?
 - [ ] What confused me? (Write it down for tomorrow)
