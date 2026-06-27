@@ -1,8 +1,8 @@
 # 🚀 Operation Headstart: 5-Day Syllabus Blitz (Exact PDF Mapping)
 
 **Primary Resources:**
-- **Math:** Strang's Calculus (MIT OCW)
-- **Physics:** Applied Physics Consolidated Notes (BMSCE)
+- **Math:** Strang's Calculus [MIT OCW](https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/mitres_18_001_f17_full_book.pdf)
+- **Physics:** Applied Physics Consolidated Notes [BMSCE](https://bmsce.ac.in/Content/PHY/Applied_physics_consolidated_notes.pdf)
 
 **Daily Schedule:**
 - **Before Lunch:** LeetCode sprint (separate)
